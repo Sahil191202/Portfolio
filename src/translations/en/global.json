@@ -1,0 +1,312 @@
+{
+    "backToTop": "Back to top",
+    "header": {
+        "navAriaLabel": "Main site navigation",
+        "links": {
+            "profile": "About",
+            "home": "Home",
+            "work": "Work",
+            "experience": "Experience",
+            "tools": "Tools",
+            "contact": "Contact"
+        }
+    },
+    "aside": {
+        "buttons": {
+            "language": {
+                "alt": "North-American flag",
+                "label": "Language"
+            },
+            "theme": {
+                "label": "Theme"
+            }
+        },
+        "dropdowns": {
+            "language": {
+                "pt": {
+                    "alt": "Flag of Brazil",
+                    "label": "Portuguese"
+                },
+                "he": {
+                    "alt": "Flag of Israel",
+                    "label": "Hebrew"
+                },
+                "de": {
+                    "alt": "Flag of Germany",
+                    "label": "German"
+                },
+                "en": {
+                    "alt": "Flag of the United States",
+                    "label": "English"
+                },
+                "es": {
+                    "alt": "Flag of Spain",
+                    "label": "Spanish"
+                },
+                "fr": {
+                    "alt": "Flag of France",
+                    "label": "French"
+                },
+                "hi": {
+                    "alt": "Flag of India",
+                    "label": "Hindi"
+                },
+                "mr": {
+                    "alt": "Flag of Maharashtra",
+                    "label": "Marathi"
+                },
+                "gu": {
+                    "alt": "Flag of Gujrat",
+                    "label": "Gujrat"
+                }
+            },
+            "theme": {
+                "dark": "Dark",
+                "light": "Light"
+            }
+        }
+    },
+    "pages": {
+        "main": {
+            "sections": {
+                "profile": {
+                    "photo": {
+                        "alt": "Photo of Sahil"
+                    },
+                    "name": "Sahil I. Khan",
+                    "description": "Full Stack Developer",
+                    "location": "India Mumbai, Maharashtra",
+                    "socials": {
+                        "linkedin": "Open LinkedIn in a new tab",
+                        "whatsapp": "Open WhatsApp in a new tab",
+                        "github": "Open GitHub in a new tab"
+                    },
+                    "button": "Let's Talk"
+                },
+                "home": {
+                    "title": "FROM SIMPLE TO",
+                    "strong": "VALUABLE",
+                    "description": "Creating intuitive and functional interfaces, adding value to product quality.",
+                    "numbers": {
+                        "years": "YEAR OF EXPERIENCE",
+                        "projects": "COMPLETED PROJECTS",
+                        "products": "PRODUCT LAUNCHED"
+                    },
+                    "buttons": {
+                        "contact": "Let's Talk",
+                        "work": "My work"
+                    }
+                },
+                "work": {
+                    "title": "MOST RECENT",
+                    "strong": "PRODUCTS",
+                    "products": {
+                        "notehub": {
+                            "alt": "Photo of the NoteHub social network",
+                            "name": "NoteHub",
+                            "description": "Social Network",
+                            "status": "Live"
+                        },
+                        "livechat": {
+                            "alt": "Photo of the LiveChat messaging application",
+                            "name": "LiveChat",
+                            "description": "Messaging Application",
+                            "status": "Live"
+                        }
+                    }
+                },
+                "experience": {
+                    "title": "YEARS OF",
+                    "strong": "EXPERIENCE",
+                    "companies": {
+                        "NoteHub": {
+                            "name": "NoteHub",
+                            "description": "Founder of the entire application, responsible for all architecture, security, development, production, messaging, and maintenance.",
+                            "role": "Full Stack Developer",
+                            "period": "2024 - Present"
+                        }
+                    }
+                },
+                "tools": {
+                    "title": "MAIN ",
+                    "strong": "TOOLS",
+                    "items": {
+                        "nodejs": {
+                            "name": "Node.js",
+                            "description": "Programming language"
+                        },
+                        "javascript": {
+                            "name": "Javascript",
+                            "description": "Programming language"
+                        },
+                        "express": {
+                            "name": "Express",
+                            "description": "Nodejs framework"
+                        },
+                        "docker": {
+                            "name": "Docker",
+                            "description": "Container platform"
+                        },
+                        "typescript": {
+                            "name": "TypeScript",
+                            "description": "Programming language"
+                        },
+                        "reactjs": {
+                            "name": "React.js",
+                            "description": "JavaScript library"
+                        },
+                        "nextjs": {
+                            "name": "Next.js",
+                            "description": "React framework"
+                        },
+                        "mongodb": {
+                            "name": "MongoDB",
+                            "description": "Database"
+                        },
+                         "mysql": {
+                            "name": "MySQL",
+                            "description": "Database"
+                        },
+                        "redis": {
+                            "name": "Redis",
+                            "description": "In-Memory Database"
+                        },
+                        "hostinger": {
+                            "name": "Hostinger",
+                            "description": "Hosting platform"
+                        },
+                        "vercel": {
+                            "name": "Vercel",
+                            "description": "Hosting platform"
+                        }
+                    }
+                },
+                "contact": {
+                    "title": "LET'S WORK",
+                    "strong": "TOGETHER",
+                    "form": {
+                        "legend": "Contact",
+                        "name": {
+                            "label": "Name",
+                            "placeholder": "Your name"
+                        },
+                        "email": {
+                            "label": "Email",
+                            "placeholder": "your@email.com"
+                        },
+                        "message": {
+                            "label": "Message",
+                            "placeholder": "Your message"
+                        },
+                        "button": {
+                            "text": "Send"
+                        }
+                    }
+                }
+            }
+        },
+        "products": {
+            "goHome": "Products",
+            "notehub": {
+                "title": "NoteHub",
+                "subtitle": "Social Network",
+                "description": "NoteHub is an open-source platform that allows users to create, organize, and share notes in .txt format. Designed with a focus on simplicity and usability, it is easy to use, intuitive, and open to community contributions.",
+                "view": "View Live",
+                "navAriaLabel": "External links for the product",
+                "roles": {
+                    "ulAriaLabel": "List of project roles and responsibilities for NoteHub",
+                    "branding": {
+                        "title": "Branding",
+                        "description": "Responsible for designing the logo, defining the brand strategy, and developing the project’s visual identity"
+                    },
+                    "development": {
+                        "title": "Development",
+                        "description": "Worked on building the interactive and dynamic interface, applying clean code and development best practices"
+                    },
+                    "storage": {
+                        "title": "Storage",
+                        "description": "Database modeling and integration of storage systems for notes"
+                    },
+                    "security": {
+                        "title": "Security",
+                        "description": "Implemented authentication, encryption, and data protection practices"
+                    },
+                    "messaging": {
+                        "title": "Messaging",
+                        "description": "Configured and implemented transactional email flow"
+                    },
+                    "deploy": {
+                        "title": "Deployment",
+                        "description": "Set up the continuous deployment pipeline and monitored the application in production"
+                    }
+                },
+                "images": {
+                    "hero": {
+                        "alt": "Overview of the NoteHub social network"
+                    },
+                    "ulAriaLabel": "Image gallery of the product screens",
+                    "1": {
+                        "alt": "NoteHub home screen"
+                    },
+                    "2": {
+                        "alt": "User profile page in NoteHub"
+                    },
+                    "3": {
+                        "alt": "User feed displaying notes in NoteHub"
+                    },
+                    "4": {
+                        "alt": "User notifications screen in NoteHub"
+                    },
+                    "5": {
+                        "alt": "NoteHub interface with primary color customization"
+                    }
+                }
+            },
+            "livechat": {
+                "title": "LiveChat",
+                "subtitle": "Messaging Application",
+                "description": "LiveChat is a demonstration project of a real-time messaging application inspired by platforms such as WhatsApp and Telegram. The application uses WebSockets to enable instant communication between users in a shared global room. The project was developed with the goal of exploring real-time communication concepts, connection management, and the architecture of interactive applications.",
+                "view": "View live",
+                "navAriaLabel": "External links related to the product",
+                "roles": {
+                    "ulAriaLabel": "List of roles in the LiveChat project",
+                    "branding": {
+                        "title": "Branding",
+                        "description": "Responsible for creating the logo, defining the brand strategy, and developing the visual identity of the project"
+                    },
+                    "development": {
+                        "title": "Development",
+                        "description": "Worked on building the interactive and dynamic interface, applying clean code and development best practices"
+                    },
+                    "storage": {
+                        "title": "Storage",
+                        "description": "Database modeling and integration of storage systems"
+                    }
+                },
+                "images": {
+                    "hero": {
+                        "alt": "Overview of the LiveChat application"
+                    },
+                    "ulAriaLabel": "Gallery of product screens",
+                    "1": {
+                        "alt": "LiveChat home screen"
+                    },
+                    "2": {
+                        "alt": "Real-time conversation screen"
+                    }
+                }
+            }
+        }
+    },
+    "footer": {
+        "author": {
+            "text": "Made by",
+            "name": " Sahil"
+        },
+        "tech": {
+            "text": "Powered by",
+            "name": " Next.js"
+        }
+    },
+    "notFound": "Invalid route."
+}
