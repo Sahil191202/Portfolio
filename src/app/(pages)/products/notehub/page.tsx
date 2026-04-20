@@ -42,9 +42,9 @@ const Page = () => {
             </header>
             <nav aria-label={t('pages.products.notehub.navAriaLabel')}>
                 <ul className="flex items-center gap-6 insm:flex-col">
-                    <li><ToViewLive href='https://notehub.com.br' /></li>
-                    <li><ToRepo href='https://github.com/lucas-adm/springboot-notehub'>Backend</ToRepo></li>
-                    <li><ToRepo href='https://github.com/lucas-adm/next-react-notehub'>Frontend</ToRepo></li>
+                    <li><ToViewLive href='https://food-villa-ai.vercel.app/' /></li>
+                    <li><ToRepo href='https://github.com/Sahil191202/FoodVilla/tree/main/Backend'>Backend</ToRepo></li>
+                    <li><ToRepo href='https://github.com/Sahil191202/FoodVilla/tree/main/Frontend'>Frontend</ToRepo></li>
                 </ul>
             </nav>
             <ul
