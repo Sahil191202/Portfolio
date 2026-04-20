@@ -18,11 +18,15 @@ const Page = () => {
     ]
 
     const images: { src: string, alt: string }[] = [
-        { src: '/imgs/products/notehub/1.png', alt: t('pages.products.notehub.images.1.alt') },
-        { src: '/imgs/products/notehub/2.png', alt: t('pages.products.notehub.images.2.alt') },
-        { src: '/imgs/products/notehub/3.png', alt: t('pages.products.notehub.images.3.alt') },
-        { src: '/imgs/products/notehub/4.png', alt: t('pages.products.notehub.images.4.alt') },
-        { src: '/imgs/products/notehub/5.png', alt: t('pages.products.notehub.images.5.alt') },
+        { src: '/imgs/products/notehub/hero.png', alt: t('pages.products.notehub.images.1.alt') },
+        { src: '/imgs/products/notehub/AiChat.jpeg', alt: t('pages.products.notehub.images.2.alt') },
+        { src: '/imgs/products/notehub/userRes.jpeg', alt: t('pages.products.notehub.images.3.alt') },
+        { src: '/imgs/products/notehub/subsplan.jpeg', alt: t('pages.products.notehub.images.4.alt') },
+        { src: '/imgs/products/notehub/owner.jpeg', alt: t('pages.products.notehub.images.5.alt') },
+        { src: '/imgs/products/notehub/owanaly.jpeg', alt: t('pages.products.notehub.images.5.alt') },
+        { src: '/imgs/products/notehub/admin.jpeg', alt: t('pages.products.notehub.images.5.alt') },
+        { src: '/imgs/products/notehub/admianaly.jpeg', alt: t('pages.products.notehub.images.5.alt') },
+
     ]
 
     return (

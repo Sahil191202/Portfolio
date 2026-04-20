@@ -102,9 +102,9 @@
                     "strong": "PRODUCTS",
                     "products": {
                         "notehub": {
-                            "alt": "Photo of the NoteHub social network",
-                            "name": "NoteHub",
-                            "description": "Social Network",
+                            "alt": "Photo of the FoodVilla",
+                            "name": "FoodVilla",
+                            "description": "Ai-Restaurant Booking",
                             "status": "Live"
                         },
                         "livechat": {
@@ -208,9 +208,9 @@
         "products": {
             "goHome": "Products",
             "notehub": {
-                "title": "NoteHub",
-                "subtitle": "Social Network",
-                "description": "NoteHub is an open-source platform that allows users to create, organize, and share notes in .txt format. Designed with a focus on simplicity and usability, it is easy to use, intuitive, and open to community contributions.",
+                "title": "FoodVilla",
+                "subtitle": "Ai-Restaurant Booking",
+                "description": "FoodVilla is a MERN stack-based smart restaurant booking web application integrated with Grok AI, enabling users to book restaurants manually or through AI-powered chat assistance. It also provides role-based access for restaurant owners with subscription-based listing and analytics dashboards, along with an admin panel to manage subscriptions and restaurant listings.",
                 "view": "View Live",
                 "navAriaLabel": "External links for the product",
                 "roles": {
@@ -225,7 +225,7 @@
                     },
                     "storage": {
                         "title": "Storage",
-                        "description": "Database modeling and integration of storage systems for notes"
+                        "description": "Database modeling and integration of storage systems"
                     },
                     "security": {
                         "title": "Security",
@@ -242,23 +242,23 @@
                 },
                 "images": {
                     "hero": {
-                        "alt": "Overview of the NoteHub social network"
+                        "alt": "Overview of the FoodVilla"
                     },
                     "ulAriaLabel": "Image gallery of the product screens",
                     "1": {
-                        "alt": "NoteHub home screen"
+                        "alt": "FoodVilla home screen"
                     },
                     "2": {
-                        "alt": "User profile page in NoteHub"
+                        "alt": "User profile page in FoodVilla"
                     },
                     "3": {
-                        "alt": "User feed displaying notes in NoteHub"
+                        "alt": "User feed displaying notes in FoodVilla"
                     },
                     "4": {
-                        "alt": "User notifications screen in NoteHub"
+                        "alt": "User notifications screen in FoodVilla"
                     },
                     "5": {
-                        "alt": "NoteHub interface with primary color customization"
+                        "alt": "FoodVilla interface with primary color customization"
                     }
                 }
             },

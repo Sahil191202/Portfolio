@@ -14,7 +14,7 @@
     "aside": {
         "buttons": {
             "language": {
-                "alt": "Bandera de España",
+                "alt": "Bandera norteamericana",
                 "label": "Idioma"
             },
             "theme": {
@@ -46,6 +46,18 @@
                 "fr": {
                     "alt": "Bandera de Francia",
                     "label": "Francés"
+                },
+                "hi": {
+                    "alt": "Bandera de India",
+                    "label": "Hindi"
+                },
+                "mr": {
+                    "alt": "Bandera de Maharashtra",
+                    "label": "Marathi"
+                },
+                "gu": {
+                    "alt": "Bandera de Gujarat",
+                    "label": "Gujarati"
                 }
             },
             "theme": {
@@ -59,11 +71,11 @@
             "sections": {
                 "profile": {
                     "photo": {
-                        "alt": "Foto de Lucas"
+                        "alt": "Foto de Sahil"
                     },
-                    "name": "Lucas A. de Moraes",
+                    "name": "Sahil I. Khan",
                     "description": "Desarrollador Full Stack",
-                    "location": "Sur de Minas, Brasil",
+                    "location": "India Mumbai, Maharashtra",
                     "socials": {
                         "linkedin": "Abrir LinkedIn en una nueva pestaña",
                         "whatsapp": "Abrir WhatsApp en una nueva pestaña",
@@ -90,9 +102,9 @@
                     "strong": "RECIENTES",
                     "products": {
                         "notehub": {
-                            "alt": "Foto de la red social NoteHub",
-                            "name": "NoteHub",
-                            "description": "Red Social",
+                            "alt": "Foto de FoodVilla",
+                            "name": "FoodVilla",
+                            "description": "Reserva de restaurantes con IA",
                             "status": "En vivo"
                         },
                         "livechat": {
@@ -119,13 +131,17 @@
                     "title": "PRINCIPALES",
                     "strong": "HERRAMIENTAS",
                     "items": {
-                        "java": {
-                            "name": "Java",
+                        "nodejs": {
+                            "name": "Node.js",
                             "description": "Lenguaje de programación"
                         },
-                        "spring": {
-                            "name": "Spring",
-                            "description": "Framework de Java"
+                        "javascript": {
+                            "name": "Javascript",
+                            "description": "Lenguaje de programación"
+                        },
+                        "express": {
+                            "name": "Express",
+                            "description": "Framework de Node.js"
                         },
                         "docker": {
                             "name": "Docker",
@@ -143,16 +159,20 @@
                             "name": "Next.js",
                             "description": "Framework de React"
                         },
-                        "postgres": {
-                            "name": "PostgreSQL",
+                        "mongodb": {
+                            "name": "MongoDB",
                             "description": "Base de datos"
                         },
-                        "supabase": {
-                            "name": "Supabase",
-                            "description": "Plataforma de almacenamiento"
+                        "mysql": {
+                            "name": "MySQL",
+                            "description": "Base de datos"
                         },
-                        "flyio": {
-                            "name": "Fly.io",
+                        "redis": {
+                            "name": "Redis",
+                            "description": "Base de datos en memoria"
+                        },
+                        "hostinger": {
+                            "name": "Hostinger",
                             "description": "Plataforma de alojamiento"
                         },
                         "vercel": {
@@ -188,13 +208,13 @@
         "products": {
             "goHome": "Productos",
             "notehub": {
-                "title": "NoteHub",
-                "subtitle": "Red Social",
-                "description": "NoteHub es una plataforma open-source que permite crear, organizar y compartir notas en formato .txt. Diseñada con enfoque en simplicidad y usabilidad, es fácil de usar, intuitiva y abierta a contribuciones de la comunidad.",
-                "navAriaLabel": "Enlaces externos relacionados con el producto",
+                "title": "FoodVilla",
+                "subtitle": "Reserva de restaurantes con IA",
+                "description": "FoodVilla es una aplicación web inteligente de reserva de restaurantes basada en el stack MERN, integrada con Grok AI, que permite a los usuarios reservar restaurantes manualmente o mediante asistencia de chat con IA. También proporciona acceso basado en roles para propietarios de restaurantes con listados por suscripción y paneles de análisis, junto con un panel de administración para gestionar suscripciones y listados de restaurantes.",
                 "view": "Ver en vivo",
+                "navAriaLabel": "Enlaces externos del producto",
                 "roles": {
-                    "ulAriaLabel": "Lista de áreas de responsabilidad del proyecto NoteHub",
+                    "ulAriaLabel": "Lista de roles y responsabilidades del proyecto FoodVilla",
                     "branding": {
                         "title": "Branding",
                         "description": "Responsable de diseñar el logotipo, definir la estrategia de marca y desarrollar la identidad visual del proyecto"
@@ -205,7 +225,7 @@
                     },
                     "storage": {
                         "title": "Almacenamiento",
-                        "description": "Modelado de la base de datos e integración de sistemas de almacenamiento para las notas"
+                        "description": "Modelado de la base de datos e integración de sistemas de almacenamiento"
                     },
                     "security": {
                         "title": "Seguridad",
@@ -222,23 +242,23 @@
                 },
                 "images": {
                     "hero": {
-                        "alt": "Vista general de la red social NoteHub"
+                        "alt": "Vista general de FoodVilla"
                     },
                     "ulAriaLabel": "Galería de imágenes de las pantallas del producto",
                     "1": {
-                        "alt": "Pantalla inicial de NoteHub"
+                        "alt": "Pantalla inicial de FoodVilla"
                     },
                     "2": {
-                        "alt": "Página de perfil de usuario en NoteHub"
+                        "alt": "Página de perfil de usuario en FoodVilla"
                     },
                     "3": {
-                        "alt": "Feed de usuario mostrando notas en NoteHub"
+                        "alt": "Feed de usuario en FoodVilla"
                     },
                     "4": {
-                        "alt": "Pantalla de notificaciones de usuario en NoteHub"
+                        "alt": "Pantalla de notificaciones de usuario en FoodVilla"
                     },
                     "5": {
-                        "alt": "Interfaz de NoteHub con personalización del color principal"
+                        "alt": "Interfaz de FoodVilla con personalización del color principal"
                     }
                 }
             },
@@ -251,7 +271,7 @@
                 "roles": {
                     "ulAriaLabel": "Lista de áreas de actuación en el proyecto LiveChat",
                     "branding": {
-                        "title": "Visual",
+                        "title": "Branding",
                         "description": "Responsable de la creación del logotipo, definición de la estrategia de marca y desarrollo de la identidad visual del proyecto"
                     },
                     "development": {
@@ -281,11 +301,11 @@
     "footer": {
         "author": {
             "text": "Hecho por",
-            "name": "Lucas"
+            "name": " Sahil"
         },
         "tech": {
             "text": "Desarrollado con",
-            "name": "Next.js"
+            "name": " Next.js"
         }
     },
     "notFound": "Ruta inválida."

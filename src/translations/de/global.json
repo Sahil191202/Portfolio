@@ -14,7 +14,7 @@
     "aside": {
         "buttons": {
             "language": {
-                "alt": "Flagge von Israel",
+                "alt": "Nordamerikanische Flagge",
                 "label": "Sprache"
             },
             "theme": {
@@ -36,7 +36,7 @@
                     "label": "Deutsch"
                 },
                 "en": {
-                    "alt": "Flagge von Großbritannien/USA",
+                    "alt": "Flagge der Vereinigten Staaten",
                     "label": "Englisch"
                 },
                 "es": {
@@ -46,6 +46,18 @@
                 "fr": {
                     "alt": "Flagge von Frankreich",
                     "label": "Französisch"
+                },
+                "hi": {
+                    "alt": "Flagge von Indien",
+                    "label": "Hindi"
+                },
+                "mr": {
+                    "alt": "Flagge von Maharashtra",
+                    "label": "Marathi"
+                },
+                "gu": {
+                    "alt": "Flagge von Gujarat",
+                    "label": "Gujarati"
                 }
             },
             "theme": {
@@ -59,53 +71,53 @@
             "sections": {
                 "profile": {
                     "photo": {
-                        "alt": "Foto von Lucas"
+                        "alt": "Foto von Sahil"
                     },
-                    "name": "Lucas A. de Moraes",
+                    "name": "Sahil I. Khan",
                     "description": "Full-Stack-Entwickler",
-                    "location": "Süd-Minas, Brasilien",
+                    "location": "Indien Mumbai, Maharashtra",
                     "socials": {
                         "linkedin": "LinkedIn in neuem Tab öffnen",
                         "whatsapp": "WhatsApp in neuem Tab öffnen",
                         "github": "GitHub in neuem Tab öffnen"
                     },
-                    "button": "Lass uns quatschen"
+                    "button": "Lass uns reden"
                 },
                 "home": {
-                    "title": "Vom Einfachen",
-                    "strong": "zum Bedeutenden",
-                    "description": "Ich baue intuitive und funktionale Interfaces, die dem Produkt echten Mehrwert bringen.",
+                    "title": "VOM EINFACHEN ZUM",
+                    "strong": "WERTVOLLEN",
+                    "description": "Intuitive und funktionale Interfaces erstellen, die dem Produkt echten Mehrwert bringen.",
                     "numbers": {
-                        "years": "Jahre Erfahrung",
-                        "projects": "abgeschlossene Projekte",
-                        "products": "veröffentlichte Produkte"
+                        "years": "JAHR ERFAHRUNG",
+                        "projects": "ABGESCHLOSSENE PROJEKTE",
+                        "products": "VERÖFFENTLICHTES PRODUKT"
                     },
                     "buttons": {
-                        "contact": "Lass uns quatschen",
-                        "work": "Meine Arbeiten"
+                        "contact": "Lass uns reden",
+                        "work": "Meine Arbeit"
                     }
                 },
                 "work": {
-                    "title": "Die",
-                    "strong": "aktuellsten Produkte",
+                    "title": "DIE NEUESTEN",
+                    "strong": "PRODUKTE",
                     "products": {
                         "notehub": {
-                            "alt": "Screenshot des sozialen Netzwerks NoteHub",
-                            "name": "NoteHub",
-                            "description": "Soziales Netzwerk",
+                            "alt": "Foto von FoodVilla",
+                            "name": "FoodVilla",
+                            "description": "KI-Restaurantbuchung",
                             "status": "Live"
                         },
                         "livechat": {
-                            "alt": "Bild der Messaging-Anwendung LiveChat",
+                            "alt": "Foto der LiveChat-Messaging-Anwendung",
                             "name": "LiveChat",
                             "description": "Messaging-Anwendung",
-                            "status": "Online"
+                            "status": "Live"
                         }
                     }
                 },
                 "experience": {
-                    "title": "Jahre",
-                    "strong": "Erfahrung",
+                    "title": "JAHRE",
+                    "strong": "ERFAHRUNG",
                     "companies": {
                         "NoteHub": {
                             "name": "NoteHub",
@@ -116,16 +128,20 @@
                     }
                 },
                 "tools": {
-                    "title": "Haupt-",
-                    "strong": "Werkzeuge",
+                    "title": "HAUPT-",
+                    "strong": "WERKZEUGE",
                     "items": {
-                        "java": {
-                            "name": "Java",
+                        "nodejs": {
+                            "name": "Node.js",
                             "description": "Programmiersprache"
                         },
-                        "spring": {
-                            "name": "Spring",
-                            "description": "Java-Framework"
+                        "javascript": {
+                            "name": "Javascript",
+                            "description": "Programmiersprache"
+                        },
+                        "express": {
+                            "name": "Express",
+                            "description": "Node.js-Framework"
                         },
                         "docker": {
                             "name": "Docker",
@@ -143,16 +159,20 @@
                             "name": "Next.js",
                             "description": "Framework für React"
                         },
-                        "postgres": {
-                            "name": "PostgreSQL",
+                        "mongodb": {
+                            "name": "MongoDB",
                             "description": "Datenbank"
                         },
-                        "supabase": {
-                            "name": "Supabase",
-                            "description": "Hosting/Storage-Plattform"
+                        "mysql": {
+                            "name": "MySQL",
+                            "description": "Datenbank"
                         },
-                        "flyio": {
-                            "name": "Fly.io",
+                        "redis": {
+                            "name": "Redis",
+                            "description": "In-Memory-Datenbank"
+                        },
+                        "hostinger": {
+                            "name": "Hostinger",
                             "description": "Hosting-Plattform"
                         },
                         "vercel": {
@@ -162,17 +182,17 @@
                     }
                 },
                 "contact": {
-                    "title": "Komm,",
-                    "strong": "lass uns reden",
+                    "title": "LASS UNS ZUSAMMEN",
+                    "strong": "ARBEITEN",
                     "form": {
-                        "legend": "Kontakt aufnehmen",
+                        "legend": "Kontakt",
                         "name": {
                             "label": "Name",
                             "placeholder": "Dein Name"
                         },
                         "email": {
                             "label": "E-Mail",
-                            "placeholder": "Deine E-Mail"
+                            "placeholder": "deine@email.com"
                         },
                         "message": {
                             "label": "Nachricht",
@@ -188,24 +208,24 @@
         "products": {
             "goHome": "Produkte",
             "notehub": {
-                "title": "NoteHub",
-                "subtitle": "Soziales Netzwerk",
-                "description": "NoteHub ist eine Open-Source-Plattform zum Erstellen, Organisieren und Teilen von Notizen im .txt-Format. Konzipiert mit Fokus auf Einfachheit und Benutzerfreundlichkeit — leicht zu verwenden und offen für Beiträge aus der Community.",
-                "view": "Website ansehen",
-                "navAriaLabel": "Externe Links, die mit dem Produkt verbunden sind",
+                "title": "FoodVilla",
+                "subtitle": "KI-Restaurantbuchung",
+                "description": "FoodVilla ist eine MERN-Stack-basierte intelligente Restaurantbuchungs-Webanwendung, die mit Grok AI integriert ist und es Benutzern ermöglicht, Restaurants manuell oder über KI-gestützte Chat-Unterstützung zu buchen. Sie bietet außerdem rollenbasiertem Zugang für Restaurantbesitzer mit abonnementbasierter Auflistung und Analyse-Dashboards sowie ein Admin-Panel zur Verwaltung von Abonnements und Restauranteinträgen.",
+                "view": "Live ansehen",
+                "navAriaLabel": "Externe Links für das Produkt",
                 "roles": {
-                    "ulAriaLabel": "Liste der Verantwortlichkeiten im NoteHub-Projekt",
+                    "ulAriaLabel": "Liste der Projektrollen und Verantwortlichkeiten für FoodVilla",
                     "branding": {
-                        "title": "Visuelle Identität",
-                        "description": "Verantwortlich für Logoerstellung, Markenstrategie und visuelle Identität des Projekts"
+                        "title": "Branding",
+                        "description": "Verantwortlich für die Logoerstellung, die Definition der Markenstrategie und die Entwicklung der visuellen Identität des Projekts"
                     },
                     "development": {
                         "title": "Entwicklung",
-                        "description": "Aufbau der interaktiven und dynamischen Oberfläche unter Verwendung sauberer Codestrukturen und Best Practices"
+                        "description": "Aufbau der interaktiven und dynamischen Oberfläche unter Anwendung von Clean Code und Best Practices"
                     },
                     "storage": {
                         "title": "Storage",
-                        "description": "Datenbankdesign und Integration von Speichersystemen für Notizen"
+                        "description": "Datenbankmodellierung und Integration von Speichersystemen"
                     },
                     "security": {
                         "title": "Sicherheit",
@@ -213,32 +233,32 @@
                     },
                     "messaging": {
                         "title": "Messaging",
-                        "description": "Aufsetzen und Umsetzung transaktionaler E-Mail-Flows"
+                        "description": "Konfiguration und Umsetzung transaktionaler E-Mail-Flows"
                     },
                     "deploy": {
                         "title": "Deployment",
-                        "description": "Einrichtung von CI/CD-Pipelines und Monitoring in der Produktionsumgebung"
+                        "description": "Einrichtung der kontinuierlichen Deployment-Pipeline und Monitoring in der Produktionsumgebung"
                     }
                 },
                 "images": {
                     "hero": {
-                        "alt": "Übersicht über NoteHub"
+                        "alt": "Übersicht über FoodVilla"
                     },
-                    "ulAriaLabel": "Galerie mit Screenshots des Produkts",
+                    "ulAriaLabel": "Bildergalerie der Produktoberflächen",
                     "1": {
-                        "alt": "NoteHub Startseite"
+                        "alt": "FoodVilla Startseite"
                     },
                     "2": {
-                        "alt": "Benutzerprofil-Seite in NoteHub"
+                        "alt": "Benutzerprofil-Seite in FoodVilla"
                     },
                     "3": {
-                        "alt": "Feed mit Notizen in NoteHub"
+                        "alt": "Benutzer-Feed mit Einträgen in FoodVilla"
                     },
                     "4": {
-                        "alt": "Benachrichtigungsseite von NoteHub"
+                        "alt": "Benachrichtigungsseite von FoodVilla"
                     },
                     "5": {
-                        "alt": "NoteHub-Oberfläche mit geänderter Primärfarbe"
+                        "alt": "FoodVilla-Oberfläche mit geänderter Primärfarbe"
                     }
                 }
             },
@@ -251,12 +271,12 @@
                 "roles": {
                     "ulAriaLabel": "Liste der Tätigkeitsbereiche im LiveChat-Projekt",
                     "branding": {
-                        "title": "Design",
+                        "title": "Branding",
                         "description": "Verantwortlich für die Erstellung des Logos, die Definition der Markenstrategie und die Entwicklung der visuellen Identität des Projekts"
                     },
                     "development": {
                         "title": "Entwicklung",
-                        "description": "Mitwirkung am Aufbau der interaktiven und dynamischen Benutzeroberfläche unter Anwendung von Clean Code und Best Practices der Softwareentwicklung"
+                        "description": "Mitwirkung am Aufbau der interaktiven und dynamischen Benutzeroberfläche unter Anwendung von Clean Code und Best Practices"
                     },
                     "storage": {
                         "title": "Speicherung",
@@ -281,11 +301,11 @@
     "footer": {
         "author": {
             "text": "Erstellt von",
-            "name": "Lucas"
+            "name": " Sahil"
         },
         "tech": {
             "text": "Angetrieben von",
-            "name": "Next.js"
+            "name": " Next.js"
         }
     },
     "notFound": "Ungültige Route."
