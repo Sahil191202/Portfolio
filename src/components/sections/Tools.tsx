@@ -21,7 +21,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     {t('pages.main.sections.tools.title')} <Strong>{t('pages.main.sections.tools.strong')}</Strong>
                 </Title>
             </header>
-            <ul className="grid grid-cols-2 gap-x-3 gap-y-6 insm:gap-x-1">
+            <ul className="grid grid-cols-2 gap-x-3 gap-y-6 insm:gap-x-1 min-w-0">
                 <Item>
                     <Link
                         href="https://nodejs.org/"
@@ -33,7 +33,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/Node.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="nodejs-title">{t('pages.main.sections.tools.items.nodejs.name')}</Titl>
                                 <Desc id="nodejs-desc">{t('pages.main.sections.tools.items.nodejs.description')}</Desc>
                             </div>
@@ -51,7 +51,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/express.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="express-title">{t('pages.main.sections.tools.items.express.name')}</Titl>
                                 <Desc id="express-desc">{t('pages.main.sections.tools.items.express.description')}</Desc>
                             </div>
@@ -69,7 +69,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/javascript.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="javascript-title">{t('pages.main.sections.tools.items.javascript.name')}</Titl>
                                 <Desc id="javascript-desc">{t('pages.main.sections.tools.items.javascript.description')}</Desc>
                             </div>
@@ -87,7 +87,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/typescript-original.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="typescript-title">{t('pages.main.sections.tools.items.typescript.name')}</Titl>
                                 <Desc id="typescript-desc">{t('pages.main.sections.tools.items.typescript.description')}</Desc>
                             </div>
@@ -105,7 +105,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/react-original.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="react-title">{t('pages.main.sections.tools.items.reactjs.name')}</Titl>
                                 <Desc id="react-desc">{t('pages.main.sections.tools.items.reactjs.description')}</Desc>
                             </div>
@@ -123,7 +123,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/nextjs-original.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="next-title">{t('pages.main.sections.tools.items.nextjs.name')}</Titl>
                                 <Desc id="next-desc">{t('pages.main.sections.tools.items.nextjs.description')}</Desc>
                             </div>
@@ -141,7 +141,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/MongoDB.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="mongodb-title">{t('pages.main.sections.tools.items.mongodb.name')}</Titl>
                                 <Desc id="mongodb-desc">{t('pages.main.sections.tools.items.mongodb.description')}</Desc>
                             </div>
@@ -159,9 +159,27 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/mysql.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="mysql-title">{t('pages.main.sections.tools.items.mysql.name')}</Titl>
                                 <Desc id="mysql-desc">{t('pages.main.sections.tools.items.mysql.description')}</Desc>
+                            </div>
+                        </Article>
+                    </Link>
+                </Item>
+                <Item>
+                    <Link
+                        href="https://www.postgresql.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-labelledby="postgresql-title"
+                        aria-describedby="postgresql-desc"
+                        className="outline-none"
+                    >
+                        <Article>
+                            <Figure figure="/svgs/tools/postgresql.svg" />
+                            <div className="min-w-0">
+                                <Titl id="postgresql-title">{t('pages.main.sections.tools.items.postgresql.name')}</Titl>
+                                <Desc id="postgresql-desc">{t('pages.main.sections.tools.items.postgresql.description')}</Desc>
                             </div>
                         </Article>
                     </Link>
@@ -177,7 +195,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/docker-original.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="docker-title">{t('pages.main.sections.tools.items.docker.name')}</Titl>
                                 <Desc id="docker-desc">{t('pages.main.sections.tools.items.docker.description')}</Desc>
                             </div>
@@ -195,9 +213,27 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/redis.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="redis-title">{t('pages.main.sections.tools.items.redis.name')}</Titl>
                                 <Desc id="redis-desc">{t('pages.main.sections.tools.items.redis.description')}</Desc>
+                            </div>
+                        </Article>
+                    </Link>
+                </Item>
+                <Item>
+                    <Link
+                        href="https://aws.amazon.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-labelledby="aws-title"
+                        aria-describedby="aws-desc"
+                        className="outline-none"
+                    >
+                        <Article>
+                            <Figure figure="/svgs/tools/aws.svg" />
+                            <div className="min-w-0">
+                                <Titl id="aws-title">{t('pages.main.sections.tools.items.aws.name')}</Titl>
+                                <Desc id="aws-desc">{t('pages.main.sections.tools.items.aws.description')}</Desc>
                             </div>
                         </Article>
                     </Link>
@@ -213,7 +249,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/hostinger.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="hostinger-title">{t('pages.main.sections.tools.items.hostinger.name')}</Titl>
                                 <Desc id="hostinger-desc">{t('pages.main.sections.tools.items.hostinger.description')}</Desc>
                             </div>
@@ -231,7 +267,7 @@ export const Tools = (props: React.HTMLAttributes<HTMLElement>) => {
                     >
                         <Article>
                             <Figure figure="/svgs/tools/vercel-original.svg" />
-                            <div>
+                            <div className="min-w-0">
                                 <Titl id="vercel-title">{t('pages.main.sections.tools.items.vercel.name')}</Titl>
                                 <Desc id="vercel-desc">{t('pages.main.sections.tools.items.vercel.description')}</Desc>
                             </div>

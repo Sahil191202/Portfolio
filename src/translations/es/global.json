@@ -84,13 +84,13 @@
                     "button": "Hablemos"
                 },
                 "home": {
-                    "title": "DE LO SIMPLE A LO",
-                    "strong": "VALIOSO",
+                    "title": "DE LO SIMPLE",
+                    "strong": "A LO VALIOSO",
                     "description": "Creando interfaces intuitivas y funcionales, aportando valor a la calidad del producto.",
                     "numbers": {
                         "years": "AÑO DE EXPERIENCIA",
-                        "projects": "PROYECTOS COMPLETADOS",
-                        "products": "PRODUCTO LANZADO"
+                        "projects": "PROYECTOS",
+                        "products": "PRODUCTO"
                     },
                     "buttons": {
                         "contact": "Hablemos",
@@ -98,19 +98,19 @@
                     }
                 },
                 "work": {
-                    "title": "PRODUCTOS MÁS",
+                    "title": "PRODUCTOS",
                     "strong": "RECIENTES",
                     "products": {
                         "notehub": {
                             "alt": "Foto de FoodVilla",
                             "name": "FoodVilla",
-                            "description": "Reserva de restaurantes con IA",
+                            "description": "Reserva con IA",
                             "status": "En vivo"
                         },
-                        "livechat": {
-                            "alt": "Imagen de la aplicación de mensajería LiveChat",
-                            "name": "LiveChat",
-                            "description": "Aplicación de mensajería",
+                        "paycraft": {
+                            "alt": "Captura del panel de PayCraft para C4U",
+                            "name": "PayCraft",
+                            "description": "Nómina y RH para C4U",
                             "status": "En vivo"
                         }
                     }
@@ -128,36 +128,36 @@
                     }
                 },
                 "tools": {
-                    "title": "PRINCIPALES",
+                    "title": "MIS",
                     "strong": "HERRAMIENTAS",
                     "items": {
                         "nodejs": {
                             "name": "Node.js",
-                            "description": "Lenguaje de programación"
+                            "description": "Lenguaje"
                         },
                         "javascript": {
                             "name": "Javascript",
-                            "description": "Lenguaje de programación"
+                            "description": "Lenguaje"
                         },
                         "express": {
                             "name": "Express",
-                            "description": "Framework de Node.js"
+                            "description": "Framework Node"
                         },
                         "docker": {
                             "name": "Docker",
-                            "description": "Plataforma de contenedores"
+                            "description": "Contenedores"
                         },
                         "typescript": {
                             "name": "TypeScript",
-                            "description": "Lenguaje de programación"
+                            "description": "Lenguaje"
                         },
                         "reactjs": {
                             "name": "React.js",
-                            "description": "Biblioteca de JavaScript"
+                            "description": "Librería JS"
                         },
                         "nextjs": {
                             "name": "Next.js",
-                            "description": "Framework de React"
+                            "description": "Framework React"
                         },
                         "mongodb": {
                             "name": "MongoDB",
@@ -169,15 +169,23 @@
                         },
                         "redis": {
                             "name": "Redis",
-                            "description": "Base de datos en memoria"
+                            "description": "En memoria"
                         },
                         "hostinger": {
                             "name": "Hostinger",
-                            "description": "Plataforma de alojamiento"
+                            "description": "Alojamiento"
                         },
                         "vercel": {
                             "name": "Vercel",
-                            "description": "Plataforma de alojamiento"
+                            "description": "Alojamiento"
+                        },
+                        "postgresql": {
+                            "name": "PostgreSQL",
+                            "description": "Base de datos"
+                        },
+                        "aws": {
+                            "name": "AWS",
+                            "description": "Nube"
                         }
                     }
                 },
@@ -241,10 +249,6 @@
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Vista general de FoodVilla"
-                    },
-                    "ulAriaLabel": "Galería de imágenes de las pantallas del producto",
                     "1": {
                         "alt": "Pantalla inicial de FoodVilla"
                     },
@@ -259,41 +263,55 @@
                     },
                     "5": {
                         "alt": "Interfaz de FoodVilla con personalización del color principal"
-                    }
+                    },
+                    "hero": {
+                        "alt": "Vista general de FoodVilla"
+                    },
+                    "ulAriaLabel": "Galería de imágenes de las pantallas del producto"
                 }
             },
-            "livechat": {
-                "title": "LiveChat",
-                "subtitle": "Aplicación de mensajería",
-                "description": "LiveChat es un proyecto demostrativo de una aplicación de mensajería en tiempo real, inspirado en plataformas como WhatsApp y Telegram. La aplicación utiliza WebSockets para permitir comunicación instantánea entre usuarios en una sala global compartida. El proyecto fue desarrollado con el objetivo de explorar conceptos de comunicación en tiempo real, gestión de conexiones y arquitectura de aplicaciones interactivas.",
+            "paycraft": {
+                "title": "PayCraft",
+                "subtitle": "C4U — Nómina y fuerza laboral",
+                "description": "PayCraft es una plataforma de gestión de nómina y fuerza laboral creada para C4U. Reúne los registros de empleados, el seguimiento de asistencia y las corridas de nómina en un solo panel para que los equipos de RR. HH. puedan gestionar al personal, procesar salarios y mantener las operaciones diarias en un mismo lugar.",
                 "view": "Ver en vivo",
-                "navAriaLabel": "Enlaces externos relacionados con el producto",
+                "navAriaLabel": "Enlaces externos del producto",
                 "roles": {
-                    "ulAriaLabel": "Lista de áreas de actuación en el proyecto LiveChat",
-                    "branding": {
-                        "title": "Branding",
-                        "description": "Responsable de la creación del logotipo, definición de la estrategia de marca y desarrollo de la identidad visual del proyecto"
-                    },
+                    "ulAriaLabel": "Lista de roles y responsabilidades del proyecto PayCraft",
                     "development": {
                         "title": "Desarrollo",
-                        "description": "Participación en la construcción de la interfaz interactiva y dinámica, aplicando código limpio y buenas prácticas de desarrollo"
+                        "description": "Construcción del panel interactivo y de los flujos de asistencia, fuerza laboral y nómina, aplicando código limpio y buenas prácticas"
                     },
                     "storage": {
                         "title": "Almacenamiento",
-                        "description": "Modelado de la base de datos e integración de sistemas de almacenamiento"
+                        "description": "Modelado de la base de datos e integración de sistemas de almacenamiento para empleados, asistencia y nómina"
+                    },
+                    "security": {
+                        "title": "Seguridad",
+                        "description": "Implementación de autenticación, acceso basado en roles y prácticas de protección de datos"
+                    },
+                    "deploy": {
+                        "title": "Despliegue",
+                        "description": "Configuración de la infraestructura de la aplicación y monitoreo del producto en producción"
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Vista general de la aplicación LiveChat"
-                    },
-                    "ulAriaLabel": "Galería de pantallas del producto",
                     "1": {
-                        "alt": "Pantalla inicial de LiveChat"
+                        "alt": "Vista general del panel de PayCraft"
                     },
                     "2": {
-                        "alt": "Pantalla de conversación en tiempo real"
-                    }
+                        "alt": "Pantalla de gestión de la fuerza laboral en PayCraft"
+                    },
+                    "3": {
+                        "alt": "Pantalla de seguimiento de asistencia en PayCraft"
+                    },
+                    "4": {
+                        "alt": "Pantalla de corridas de nómina en PayCraft"
+                    },
+                    "hero": {
+                        "alt": "Vista general del panel de PayCraft"
+                    },
+                    "ulAriaLabel": "Galería de imágenes de las pantallas del producto"
                 }
             }
         }

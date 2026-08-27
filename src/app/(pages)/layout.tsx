@@ -13,10 +13,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <BackToTop />
                 <Header />
                 <SideMenu />
-                <main data-nosnippet className="dark:bg-dark bg-light transition-colors duration-666">
+                <main data-nosnippet className="dark:bg-dark bg-light transition-colors duration-666 overflow-x-clip">
                     <div className="grid grid-cols-[40%_60%] inlg:grid-cols-1">
                         <Profile />
-                        {children}
+                        <div className="min-w-0 max-w-full">
+                            {children}
+                        </div>
                     </div>
                 </main>
                 <Footer />

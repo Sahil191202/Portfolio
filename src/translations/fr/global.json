@@ -84,12 +84,12 @@
                     "button": "Parlons"
                 },
                 "home": {
-                    "title": "DU SIMPLE AU",
-                    "strong": "PRÉCIEUX",
+                    "title": "DU SIMPLE",
+                    "strong": "AU PRÉCIEUX",
                     "description": "Créer des interfaces intuitives et fonctionnelles, apportant de la valeur à la qualité du produit.",
                     "numbers": {
                         "years": "AN D'EXPÉRIENCE",
-                        "projects": "PROJETS RÉALISÉS",
+                        "projects": "PROJETS FINIS",
                         "products": "PRODUIT LANCÉ"
                     },
                     "buttons": {
@@ -98,19 +98,19 @@
                     }
                 },
                 "work": {
-                    "title": "PRODUITS LES PLUS",
+                    "title": "PRODUITS",
                     "strong": "RÉCENTS",
                     "products": {
                         "notehub": {
                             "alt": "Photo de FoodVilla",
                             "name": "FoodVilla",
-                            "description": "Réservation de restaurant par IA",
+                            "description": "Réservation IA",
                             "status": "En ligne"
                         },
-                        "livechat": {
-                            "alt": "Image de l'application de messagerie LiveChat",
-                            "name": "LiveChat",
-                            "description": "Application de messagerie",
+                        "paycraft": {
+                            "alt": "Capture du tableau de bord PayCraft pour C4U",
+                            "name": "PayCraft",
+                            "description": "Paie et RH pour C4U",
                             "status": "En ligne"
                         }
                     }
@@ -129,35 +129,35 @@
                 },
                 "tools": {
                     "title": "OUTILS",
-                    "strong": "PRINCIPAUX",
+                    "strong": "CLÉS",
                     "items": {
                         "nodejs": {
                             "name": "Node.js",
-                            "description": "Langage de programmation"
+                            "description": "Langage"
                         },
                         "javascript": {
                             "name": "Javascript",
-                            "description": "Langage de programmation"
+                            "description": "Langage"
                         },
                         "express": {
                             "name": "Express",
-                            "description": "Framework Node.js"
+                            "description": "Framework Node"
                         },
                         "docker": {
                             "name": "Docker",
-                            "description": "Plateforme de conteneurs"
+                            "description": "Conteneurs"
                         },
                         "typescript": {
                             "name": "TypeScript",
-                            "description": "Langage de programmation"
+                            "description": "Langage"
                         },
                         "reactjs": {
                             "name": "React.js",
-                            "description": "Bibliothèque JavaScript"
+                            "description": "Librairie JS"
                         },
                         "nextjs": {
                             "name": "Next.js",
-                            "description": "Framework pour React"
+                            "description": "Framework React"
                         },
                         "mongodb": {
                             "name": "MongoDB",
@@ -169,15 +169,23 @@
                         },
                         "redis": {
                             "name": "Redis",
-                            "description": "Base de données en mémoire"
+                            "description": "En mémoire"
                         },
                         "hostinger": {
                             "name": "Hostinger",
-                            "description": "Plateforme d'hébergement"
+                            "description": "Hébergement"
                         },
                         "vercel": {
                             "name": "Vercel",
-                            "description": "Plateforme d'hébergement"
+                            "description": "Hébergement"
+                        },
+                        "postgresql": {
+                            "name": "PostgreSQL",
+                            "description": "Base de données"
+                        },
+                        "aws": {
+                            "name": "AWS",
+                            "description": "Cloud"
                         }
                     }
                 },
@@ -241,10 +249,6 @@
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Vue d'ensemble de FoodVilla"
-                    },
-                    "ulAriaLabel": "Galerie de captures d'écran du produit",
                     "1": {
                         "alt": "Page d'accueil de FoodVilla"
                     },
@@ -259,41 +263,55 @@
                     },
                     "5": {
                         "alt": "Interface FoodVilla avec couleur primaire modifiée"
-                    }
+                    },
+                    "hero": {
+                        "alt": "Vue d'ensemble de FoodVilla"
+                    },
+                    "ulAriaLabel": "Galerie de captures d'écran du produit"
                 }
             },
-            "livechat": {
-                "title": "LiveChat",
-                "subtitle": "Application de messagerie",
-                "description": "LiveChat est un projet démonstratif d'une application de messagerie en temps réel, inspirée de plateformes comme WhatsApp et Telegram. L'application utilise WebSockets pour permettre une communication instantanée entre les utilisateurs dans une salle globale partagée. Le projet a été développé afin d'explorer les concepts de communication en temps réel, la gestion des connexions et l'architecture des applications interactives.",
+            "paycraft": {
+                "title": "PayCraft",
+                "subtitle": "C4U — Paie et effectifs",
+                "description": "PayCraft est une plateforme de gestion de la paie et des effectifs conçue pour C4U. Elle rassemble les dossiers employés, le suivi des présences et les cycles de paie dans un seul tableau de bord, afin que les équipes RH puissent gérer les effectifs, traiter les salaires et piloter les opérations quotidiennes au même endroit.",
                 "view": "Voir en ligne",
-                "navAriaLabel": "Liens externes liés au produit",
+                "navAriaLabel": "Liens externes du produit",
                 "roles": {
-                    "ulAriaLabel": "Liste des domaines d'intervention dans le projet LiveChat",
-                    "branding": {
-                        "title": "Branding",
-                        "description": "Responsable de la création du logo, de la définition de la stratégie de marque et du développement de l'identité visuelle du projet"
-                    },
+                    "ulAriaLabel": "Liste des rôles et responsabilités du projet PayCraft",
                     "development": {
                         "title": "Développement",
-                        "description": "Participation à la construction de l'interface interactive et dynamique en appliquant un code propre et les bonnes pratiques de développement"
+                        "description": "Construction du tableau de bord interactif, des flux de présence, d’effectifs et de paie, en appliquant un code propre et les meilleures pratiques"
                     },
                     "storage": {
                         "title": "Stockage",
-                        "description": "Modélisation de la base de données et intégration des systèmes de stockage"
+                        "description": "Modélisation de la base de données et intégration des systèmes de stockage pour les employés, les présences et la paie"
+                    },
+                    "security": {
+                        "title": "Sécurité",
+                        "description": "Mise en place de l’authentification, des accès basés sur les rôles et des pratiques de protection des données"
+                    },
+                    "deploy": {
+                        "title": "Déploiement",
+                        "description": "Mise en place de l’infrastructure de l’application et suivi du produit en production"
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Vue générale de l'application LiveChat"
-                    },
-                    "ulAriaLabel": "Galerie des écrans du produit",
                     "1": {
-                        "alt": "Écran d'accueil de LiveChat"
+                        "alt": "Vue d’ensemble du tableau de bord PayCraft"
                     },
                     "2": {
-                        "alt": "Écran de conversation en temps réel"
-                    }
+                        "alt": "Écran de gestion des effectifs dans PayCraft"
+                    },
+                    "3": {
+                        "alt": "Écran de suivi des présences dans PayCraft"
+                    },
+                    "4": {
+                        "alt": "Écran des cycles de paie dans PayCraft"
+                    },
+                    "hero": {
+                        "alt": "Vue d’ensemble du tableau de bord PayCraft"
+                    },
+                    "ulAriaLabel": "Galerie de captures d’écran du produit"
                 }
             }
         }

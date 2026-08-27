@@ -107,10 +107,10 @@
                             "description": "KI-Restaurantbuchung",
                             "status": "Live"
                         },
-                        "livechat": {
-                            "alt": "Foto der LiveChat-Messaging-Anwendung",
-                            "name": "LiveChat",
-                            "description": "Messaging-Anwendung",
+                        "paycraft": {
+                            "alt": "Screenshot des PayCraft-Dashboards für C4U",
+                            "name": "PayCraft",
+                            "description": "Lohnabrechnung und Workforce für C4U",
                             "status": "Live"
                         }
                     }
@@ -178,6 +178,14 @@
                         "vercel": {
                             "name": "Vercel",
                             "description": "Hosting-Plattform"
+                        },
+                        "postgresql": {
+                            "name": "PostgreSQL",
+                            "description": "Datenbank"
+                        },
+                        "aws": {
+                            "name": "AWS",
+                            "description": "Cloud-Plattform"
                         }
                     }
                 },
@@ -241,10 +249,6 @@
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Übersicht über FoodVilla"
-                    },
-                    "ulAriaLabel": "Bildergalerie der Produktoberflächen",
                     "1": {
                         "alt": "FoodVilla Startseite"
                     },
@@ -259,41 +263,55 @@
                     },
                     "5": {
                         "alt": "FoodVilla-Oberfläche mit geänderter Primärfarbe"
-                    }
+                    },
+                    "hero": {
+                        "alt": "Übersicht über FoodVilla"
+                    },
+                    "ulAriaLabel": "Bildergalerie der Produktoberflächen"
                 }
             },
-            "livechat": {
-                "title": "LiveChat",
-                "subtitle": "Messaging-Anwendung",
-                "description": "LiveChat ist ein Demonstrationsprojekt einer Echtzeit-Messaging-Anwendung, inspiriert von Plattformen wie WhatsApp und Telegram. Die Anwendung verwendet WebSockets, um eine sofortige Kommunikation zwischen Benutzern in einem gemeinsamen globalen Raum zu ermöglichen. Das Projekt wurde entwickelt, um Konzepte der Echtzeitkommunikation, Verbindungsverwaltung und die Architektur interaktiver Anwendungen zu erforschen.",
+            "paycraft": {
+                "title": "PayCraft",
+                "subtitle": "C4U — Lohnabrechnung und Workforce",
+                "description": "PayCraft ist eine Plattform für Lohnabrechnung und Workforce-Management, die für C4U entwickelt wurde. Sie bündelt Mitarbeiterdaten, Anwesenheitserfassung und Gehaltsläufe in einem Dashboard, damit HR-Teams die Belegschaft verwalten, Gehälter verarbeiten und den Alltag an einem Ort steuern können.",
                 "view": "Live ansehen",
-                "navAriaLabel": "Externe Links zum Produkt",
+                "navAriaLabel": "Externe Links für das Produkt",
                 "roles": {
-                    "ulAriaLabel": "Liste der Tätigkeitsbereiche im LiveChat-Projekt",
-                    "branding": {
-                        "title": "Branding",
-                        "description": "Verantwortlich für die Erstellung des Logos, die Definition der Markenstrategie und die Entwicklung der visuellen Identität des Projekts"
-                    },
+                    "ulAriaLabel": "Liste der Projektrollen und Verantwortlichkeiten für PayCraft",
                     "development": {
                         "title": "Entwicklung",
-                        "description": "Mitwirkung am Aufbau der interaktiven und dynamischen Benutzeroberfläche unter Anwendung von Clean Code und Best Practices"
+                        "description": "Aufbau des interaktiven Dashboards sowie der Anwesenheits-, Workforce- und Payroll-Abläufe unter Anwendung von Clean Code und Best Practices"
                     },
                     "storage": {
-                        "title": "Speicherung",
-                        "description": "Datenbankmodellierung und Integration von Speichersystemen"
+                        "title": "Storage",
+                        "description": "Datenbankmodellierung und Integration von Speichersystemen für Mitarbeiter-, Anwesenheits- und Gehaltsdaten"
+                    },
+                    "security": {
+                        "title": "Sicherheit",
+                        "description": "Implementierung von Authentifizierung, rollenbasiertem Zugriff und Datenschutzmaßnahmen"
+                    },
+                    "deploy": {
+                        "title": "Deployment",
+                        "description": "Einrichtung der Anwendungsinfrastruktur und Monitoring des Produkts in der Produktionsumgebung"
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Übersicht der LiveChat-Anwendung"
-                    },
-                    "ulAriaLabel": "Galerie der Produktoberflächen",
                     "1": {
-                        "alt": "Startbildschirm von LiveChat"
+                        "alt": "Übersicht des PayCraft-Dashboards"
                     },
                     "2": {
-                        "alt": "Echtzeit-Chatbildschirm"
-                    }
+                        "alt": "Workforce-Verwaltung in PayCraft"
+                    },
+                    "3": {
+                        "alt": "Anwesenheitserfassung in PayCraft"
+                    },
+                    "4": {
+                        "alt": "Gehaltsläufe in PayCraft"
+                    },
+                    "hero": {
+                        "alt": "Übersicht des PayCraft-Dashboards"
+                    },
+                    "ulAriaLabel": "Bildergalerie der Produktoberflächen"
                 }
             }
         }

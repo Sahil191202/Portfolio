@@ -42,7 +42,7 @@ export const Link = ({ icon: Icon, tooltip, isActive, navigateToId, ...rest }: L
                     'pointer-events-none opacity-0',
                     'absolute top-0 left-1/2 -translate-x-1/2 translate-y-0',
                     'rounded-full px-2 py-1',
-                    'font-medium text-xs text-light',
+                    'font-medium text-xs text-light whitespace-nowrap',
                     'dark:bg-light/33 bg-dark/33',
                     'transition-all duration-400 ease-in-out',
                     'group-hover:opacity-100 group-hover:translate-y-12',

@@ -17,11 +17,11 @@ export const Figure = ({ figure, alt, ...rest }: FigureProps) => (
             alt={alt}
             className={clsx(
                 'pointer-events-none select-none',
-                'object-cover origint-top',
+                'object-cover origin-top',
                 'bg-primary',
                 'transition-all duration-666',
-                'group-hover:scale-175',
-                'group-focus-within:scale-175',
+                'group-hover:scale-105',
+                'group-focus-within:scale-105',
             )}
         />
     </figure>

@@ -1,6 +1,6 @@
 export const D = (props: React.HTMLAttributes<HTMLDivElement>) => (
     <div
-        className="max-w-[133px]"
+        className="w-[133px] max-w-[133px] min-w-0"
         {...props}
     />
 )

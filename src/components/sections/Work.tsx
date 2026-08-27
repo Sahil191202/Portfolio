@@ -9,9 +9,9 @@ export const Work = (props: React.HTMLAttributes<HTMLElement>) => {
 
     const { t } = useTranslation("global");
 
-    const products: { slug: string, live: boolean }[] = [
-        { slug: 'notehub', live: true },
-        { slug: 'livechat', live: false },
+    const products: { slug: string; live: boolean; image: string }[] = [
+        { slug: 'paycraft', live: false, image: '/imgs/products/paycraft/dashboard.webp' },
+        { slug: 'notehub', live: true, image: '/imgs/products/notehub/hero.png' },
     ]
 
     return (
@@ -37,7 +37,7 @@ export const Work = (props: React.HTMLAttributes<HTMLElement>) => {
                                 className="outline-none"
                             >
                                 <Article>
-                                    <Figure figure={`/imgs/products/${p.slug}/hero.png`} alt={t(`pages.main.sections.work.products.${p.slug}.alt`)} />
+                                    <Figure figure={p.image} alt={t(`pages.main.sections.work.products.${p.slug}.alt`)} />
                                     <div className="p-4 flex flex-col gap-4">
                                         <Titl id={`${p.slug}-title`}>{t(`pages.main.sections.work.products.${p.slug}.name`)}</Titl>
                                         <Paragraph id={`${p.slug}-desc`}>{t(`pages.main.sections.work.products.${p.slug}.description`)}</Paragraph>

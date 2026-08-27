@@ -107,10 +107,10 @@
                             "description": "Ai-Restaurant Booking",
                             "status": "Live"
                         },
-                        "livechat": {
-                            "alt": "Photo of the LiveChat messaging application",
-                            "name": "LiveChat",
-                            "description": "Messaging Application",
+                        "paycraft": {
+                            "alt": "Screenshot of the PayCraft dashboard for C4U",
+                            "name": "PayCraft",
+                            "description": "Payroll & Workforce for C4U",
                             "status": "Live"
                         }
                     }
@@ -163,7 +163,7 @@
                             "name": "MongoDB",
                             "description": "Database"
                         },
-                         "mysql": {
+                        "mysql": {
                             "name": "MySQL",
                             "description": "Database"
                         },
@@ -178,6 +178,14 @@
                         "vercel": {
                             "name": "Vercel",
                             "description": "Hosting platform"
+                        },
+                        "postgresql": {
+                            "name": "PostgreSQL",
+                            "description": "Database"
+                        },
+                        "aws": {
+                            "name": "AWS",
+                            "description": "Cloud platform"
                         }
                     }
                 },
@@ -241,10 +249,6 @@
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Overview of the FoodVilla"
-                    },
-                    "ulAriaLabel": "Image gallery of the product screens",
                     "1": {
                         "alt": "FoodVilla home screen"
                     },
@@ -259,41 +263,55 @@
                     },
                     "5": {
                         "alt": "FoodVilla interface with primary color customization"
-                    }
+                    },
+                    "hero": {
+                        "alt": "Overview of the FoodVilla"
+                    },
+                    "ulAriaLabel": "Image gallery of the product screens"
                 }
             },
-            "livechat": {
-                "title": "LiveChat",
-                "subtitle": "Messaging Application",
-                "description": "LiveChat is a demonstration project of a real-time messaging application inspired by platforms such as WhatsApp and Telegram. The application uses WebSockets to enable instant communication between users in a shared global room. The project was developed with the goal of exploring real-time communication concepts, connection management, and the architecture of interactive applications.",
-                "view": "View live",
-                "navAriaLabel": "External links related to the product",
+            "paycraft": {
+                "title": "PayCraft",
+                "subtitle": "C4U — Payroll & Workforce",
+                "description": "PayCraft is a payroll and workforce management platform built for C4U. It brings employee records, attendance tracking, and payroll runs into a single dashboard so HR teams can manage the workforce, process salaries, and keep day-to-day operations in one place.",
+                "view": "View Live",
+                "navAriaLabel": "External links for the product",
                 "roles": {
-                    "ulAriaLabel": "List of roles in the LiveChat project",
-                    "branding": {
-                        "title": "Branding",
-                        "description": "Responsible for creating the logo, defining the brand strategy, and developing the visual identity of the project"
-                    },
+                    "ulAriaLabel": "List of project roles and responsibilities for PayCraft",
                     "development": {
                         "title": "Development",
-                        "description": "Worked on building the interactive and dynamic interface, applying clean code and development best practices"
+                        "description": "Worked on building the interactive dashboard, attendance, workforce, and payroll flows, applying clean code and development best practices"
                     },
                     "storage": {
                         "title": "Storage",
-                        "description": "Database modeling and integration of storage systems"
+                        "description": "Database modeling and integration of storage systems for employees, attendance, and payroll data"
+                    },
+                    "security": {
+                        "title": "Security",
+                        "description": "Implemented authentication, role-based access, and data protection practices"
+                    },
+                    "deploy": {
+                        "title": "Deployment",
+                        "description": "Set up the application infrastructure and monitored the product in production"
                     }
                 },
                 "images": {
-                    "hero": {
-                        "alt": "Overview of the LiveChat application"
-                    },
-                    "ulAriaLabel": "Gallery of product screens",
                     "1": {
-                        "alt": "LiveChat home screen"
+                        "alt": "PayCraft dashboard overview"
                     },
                     "2": {
-                        "alt": "Real-time conversation screen"
-                    }
+                        "alt": "Workforce management screen in PayCraft"
+                    },
+                    "3": {
+                        "alt": "Attendance tracking screen in PayCraft"
+                    },
+                    "4": {
+                        "alt": "Payroll runs screen in PayCraft"
+                    },
+                    "hero": {
+                        "alt": "Overview of the PayCraft dashboard"
+                    },
+                    "ulAriaLabel": "Image gallery of the product screens"
                 }
             }
         }
